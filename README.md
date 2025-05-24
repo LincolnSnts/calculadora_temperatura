@@ -24,6 +24,23 @@ Permite converter temperaturas entre Celsius, Fahrenheit e Kelvin.
 - Tratamento de erros com try/except
 - Boas práticas de organização de código
 
+
+
+## VERSÃO 2 - Interface Gráfica com Streamlit
+
+Nova versão do projeto. O conversor foi recriado usando o framework Streamlit, permitindo interações por interface gráfica no navegador.
+
+# Funcionalidades adicionais
+
+- Interface amigável com Streamlit
+- Validação de limites físicos de temperatura (nada abaixo de 0 absoluto é permitido)
+- Mesmas conversões da versão original
+- Exibição de resultados direto na tela com (`st.success()`) e (`st.error()`)
+
+# Tecnologias adicionais
+
+- Streamlit
+
 # Autor
 
 - Feito por Lincoln Santos
