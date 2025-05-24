@@ -78,5 +78,3 @@ while True:
         break
 
 print('Fim do programa!')
-
-
